@@ -5,6 +5,7 @@
 
 <head>
     <?php include_once('./php/head.php') ?>
+    <link rel="stylesheet" href="commodity.css">
 </head>
 
 <body>
@@ -16,24 +17,19 @@
     </section> -->
 
     <section>
-
         <?php include_once('./php/header.php') ?>
     </section>
     <section style="margin-top: 150px;">
         <?php include_once('./php/card.php') ?>
     </section>
 
-    <section id="slider" class="pt-5">
-        <?php include_once('./php/frosted-glass.php') ?>
-        <?php include_once('./php/container.php') ?>
+    <section>
     </section>
-    <!-- footer -->
-    <section class="footer">
-        <?php include_once('./php/footer.php') ?>
-    </section>
+
 
 
     <?php include_once('./php/js.php') ?>
+    <script src="commodity.js"></script>
 </body>
 
 </html>

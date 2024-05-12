@@ -1,0 +1,68 @@
+/*標籤選項區塊*/
+
+.nav-tabs.centered > li, .nav-pills.centered > li {
+    float: none;
+    display: inline-block;
+     zoom: 1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs.centered, .nav-pills.centered {
+    text-align: center;
+}
+
+
+/*標籤內容*/
+
+#section1 {
+  padding-top: 70px;
+}
+
+.grid{
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.grid-sizer{
+  width: 25%;
+}
+
+.element-item{
+  width: 25%;
+  padding: 0 15px;
+}
+
+/*商品內容*/
+
+.thumbnail img {
+    width: 100%;
+}
+
+.caption {
+    height: 120px;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+/* 取消圖片反白 */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+/*愛心按鈕*/
+.heart{
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+}
