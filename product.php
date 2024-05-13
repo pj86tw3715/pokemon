@@ -4,8 +4,10 @@
 <html lang="zh-TW">
 
 <head>
-    <?php include_once('./php/head.php') ?>
+
     <link rel="stylesheet" href="navigationbar.css">
+    <link rel="stylesheet" href="card01.css">
+
 </head>
 
 <body>
@@ -16,9 +18,6 @@
         </div>
     </section> -->
 
-    <section>
-        <?php include_once('./php/header.php') ?>
-    </section>
     <section>
 
         <div class="row">
@@ -81,8 +80,67 @@
 
 
             <div class="col-md-10">
+                <div class="container">
+                    <div class="card__container">
+                        <article class="card__article">
+                            <img src="./images12/001.png" alt="image" class="card__img">
 
-                <?php include_once('./php/card.php') ?>
+                            <div class="card__data">
+                                <span class="card__description">Vancouver Mountains, Canada</span>
+                                <h2 class="card__title">The Great Path</h2>
+                                <a href="#" class="card__button">Read More</a>
+                            </div>
+                        </article>
+
+                        <article class="card__article">
+                            <img src="./images12/001.png" alt="image" class="card__img">
+
+                            <div class="card__data">
+                                <span class="card__description">Poon Hill, Nepal</span>
+                                <h2 class="card__title">Starry Night</h2>
+                                <a href="#" class="card__button">Read More</a>
+                            </div>
+                        </article>
+
+                        <article class="card__article">
+                            <img src="./images12/001.png" alt="image" class="card__img">
+
+                            <div class="card__data">
+                                <span class="card__description">Bojcin Forest, Serbia</span>
+                                <h2 class="card__title">Path Of Peace</h2>
+                                <a href="#" class="card__button">Read More</a>
+                            </div>
+                        </article>
+                        <article class="card__article">
+                            <img src="./images12/001.png" alt="image" class="card__img">
+
+                            <div class="card__data">
+                                <span class="card__description">Bojcin Forest, Serbia</span>
+                                <h2 class="card__title">Path Of Peace</h2>
+                                <a href="#" class="card__button">Read More</a>
+                            </div>
+                        </article>
+                        <article class="card__article">
+                            <img src="./images12/001.png" alt="image" class="card__img">
+
+                            <div class="card__data">
+                                <span class="card__description">Bojcin Forest, Serbia</span>
+                                <h2 class="card__title">Path Of Peace</h2>
+                                <a href="#" class="card__button">Read More</a>
+                            </div>
+                        </article>
+                        <article class="card__article">
+                            <img src="./images12/001.png" alt="image" class="card__img">
+
+                            <div class="card__data">
+                                <span class="card__description">Bojcin Forest, Serbia</span>
+                                <h2 class="card__title">Path Of Peace</h2>
+                                <a href="#" class="card__button">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
             </div>
 
         </div>
